@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": "Power_Performance_Review.xlsx",
+      "bytes": 121465,
+      "sha256": "d747047c7a3fdb783e890c28d8d52e9f140280b7cfb1909d6f7bb78507b94293"
+    },
+    {
+      "path": "appeal_decisions.csv",
+      "bytes": 852,
+      "sha256": "42aca49fe64d43c30483d2430af585766b0c7b6f9036f08680de83a210837a98"
+    },
+    {
+      "path": "change_impact.csv",
+      "bytes": 6315,
+      "sha256": "b0eadb18cfda94f7210c5fd0946c1ce8f5d0d3bddc6bf0300b6e79851ba188ea"
+    },
+    {
+      "path": "event_assessment.csv",
+      "bytes": 3489,
+      "sha256": "dfa06e97fd0f392efd66ac5f91fd70b51b9f754782fa73b0c544725fb67b7c9b"
+    },
+    {
+      "path": "evidence_index.csv",
+      "bytes": 21424,
+      "sha256": "0879516989374f1e9f26ef778135807515836df812e8d8b23c685af6e0c20f79"
+    },
+    {
+      "path": "exception_log.csv",
+      "bytes": 29498,
+      "sha256": "74dc7f6dc0328392a394be12f4c14ce37f6e8e827c1b46c22e44f78652ba7ef7"
+    },
+    {
+      "path": "final_decisions.csv",
+      "bytes": 1984,
+      "sha256": "80051e2c3087476ab280a5432661c788ab9cfcff3b48035cb0013285ebc986ee"
+    },
+    {
+      "path": "indicator_results.csv",
+      "bytes": 7503,
+      "sha256": "cae51f2217733a989b405fe6f53c7185b6fed261b0df9cf8408aed19688a9263"
+    },
+    {
+      "path": "legacy_audit.csv",
+      "bytes": 972,
+      "sha256": "4c52000978aad4c508ff851d675c7e13539ea7b81d1d91108388b7b35108466d"
+    },
+    {
+      "path": "monthly_kpis.csv",
+      "bytes": 56117,
+      "sha256": "d64950413e0c81c1f31d9477bcca79003d570bbd2f391b4f203e841cdc503325"
+    },
+    {
+      "path": "organization_mapping.csv",
+      "bytes": 35045,
+      "sha256": "7868edd467c98390d4dedb205237a6411151ade1ac02c48c1758b8c72c764c7f"
+    },
+    {
+      "path": "review_memo.md",
+      "bytes": 2266,
+      "sha256": "bffdbf4f8ac579c71c5a1782be20f7469132b0865883b5452061d3d1c4aea9ff"
+    },
+    {
+      "path": "review_plan.json",
+      "bytes": 200,
+      "sha256": "24502c70d8e90d2506eeecb8e0de11a6b37aeb6478d82437a550bab35ac52232"
+    },
+    {
+      "path": "selected_records.csv",
+      "bytes": 239533,
+      "sha256": "b3d77cb2fe96a4a9c93fd562ab41c8d1f02bdc184b078078300e1b588672c368"
+    },
+    {
+      "path": "self_check.json",
+      "bytes": 1273,
+      "sha256": "f8e2eed390920291b99ce9d4c474f8737bb80cde42f29506ef6c59b0a4bf618a"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Parsed-cell table header discovery, not full recalculation of shifted Excel files",
+  "header_row_shift_7": true,
+  "column_reversal": true,
+  "rows": 32,
+  "remediation": "Removed fixed row/column and private formula-count requirements. Public canonical headers are disclosed; no layout coordinates are mandated."
+}

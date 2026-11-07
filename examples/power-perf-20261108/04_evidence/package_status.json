@@ -1,0 +1,35 @@
+{
+  "task_id": "POWER-PERF-T2",
+  "version": "DEV-20261107-v1",
+  "author_build": "BUILT_AND_MACHINE_CHECKED",
+  "human_review": "NOT_RUN",
+  "doubao_runs": [
+    {
+      "run": 1,
+      "status": "NOT_RUN",
+      "score": null,
+      "seconds": null,
+      "verified_steps": null
+    },
+    {
+      "run": 2,
+      "status": "NOT_RUN",
+      "score": null,
+      "seconds": null,
+      "verified_steps": null
+    },
+    {
+      "run": 3,
+      "status": "NOT_RUN",
+      "score": null,
+      "seconds": null,
+      "verified_steps": null
+    }
+  ],
+  "platform_status": "BLOCKED_AI_SYNTHETIC",
+  "grading_scale": "CANDIDATE_NOT_PLATFORM_CONFIRMED",
+  "reference_machine_checks": "76/76",
+  "independent_computational_checks": "162/162",
+  "reference_formal_score": null,
+  "target_model_outcome": "UNVERIFIED"
+}

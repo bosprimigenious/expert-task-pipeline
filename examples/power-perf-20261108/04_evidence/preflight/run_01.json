@@ -1,0 +1,56 @@
+{
+  "status": "INVALID_SCHEMA",
+  "findings": [
+    {
+      "severity": "blocker",
+      "file": "indicator_results.csv",
+      "problem": "invalid status enum ['OK']; use DETERMINED/UNDETERMINED/NOT_APPLICABLE"
+    }
+  ],
+  "summary": {
+    "selected_records.csv": {
+      "rows": 3968,
+      "columns": 8
+    },
+    "exception_log.csv": {
+      "rows": 399,
+      "columns": 9
+    },
+    "organization_mapping.csv": {
+      "rows": 1152,
+      "columns": 6
+    },
+    "monthly_kpis.csv": {
+      "rows": 1536,
+      "columns": 10
+    },
+    "indicator_results.csv": {
+      "rows": 128,
+      "columns": 9
+    },
+    "event_assessment.csv": {
+      "rows": 48,
+      "columns": 17
+    },
+    "appeal_decisions.csv": {
+      "rows": 24,
+      "columns": 9
+    },
+    "final_decisions.csv": {
+      "rows": 32,
+      "columns": 15
+    },
+    "change_impact.csv": {
+      "rows": 176,
+      "columns": 7
+    },
+    "legacy_audit.csv": {
+      "rows": 8,
+      "columns": 5
+    },
+    "evidence_index.csv": {
+      "rows": 232,
+      "columns": 6
+    }
+  }
+}

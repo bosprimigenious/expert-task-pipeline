@@ -1,0 +1,24 @@
+{
+  "task_id": "POWER-PERF-T2",
+  "run_01": {
+    "status": "COMPLETED_NOT_PASS",
+    "model": "豆包 2.1 Pro / 专家",
+    "start": "2026-11-08T00:46:07+08:00",
+    "end": "2026-11-08T00:59:46+08:00",
+    "wall_seconds": 819,
+    "verified_steps": null,
+    "steps_status": "NOT_VERIFIABLE",
+    "input_mode": "UNPACKED_48_FILES",
+    "machine_checks": "42/76",
+    "score_interval": [
+      49,
+      54
+    ],
+    "final_score": null,
+    "c20": "NOT_RUN",
+    "result": "TIME_FAIL",
+    "conversation_url": "https://www.doubao.com/chat/38452148980505346"
+  },
+  "run_02": "NOT_RUN",
+  "run_03": "NOT_RUN"
+}

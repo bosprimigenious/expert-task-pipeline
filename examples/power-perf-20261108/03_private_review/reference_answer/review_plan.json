@@ -1,0 +1,16 @@
+{
+  "status": "PLAN_ONLY_NOT_EXECUTED",
+  "cost": 7,
+  "actions": [
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "required_gaps": [
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+  ],
+  "objective": "MIN_TOTAL_COST"
+}

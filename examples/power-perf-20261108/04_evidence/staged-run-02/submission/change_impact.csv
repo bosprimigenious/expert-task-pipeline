@@ -1,0 +1,7 @@
+﻿snapshot_from,snapshot_to,unit_id,field,old_value,new_value,changed,reason
+R0,R1,U1,score_status,PROVISIONAL,PROVISIONAL,False,C10仍未生效，维持待决
+R0,R1,U2,score_status,PROVISIONAL,FINAL,True,C07裁决生效，解除待决
+R0,R1,U4,score_status,PROVISIONAL,FINAL,True,C06裁决生效，解除待决
+R1,R2,U1,score_status,PROVISIONAL,FINAL,True,C10正式裁决生效
+R1,R2,U2,final_score,78.55,88.6,True,C07事故撤销，返还10分
+R1,R2,U4,final_score,64.0,72.0,True,C12事故撤销，返还8分

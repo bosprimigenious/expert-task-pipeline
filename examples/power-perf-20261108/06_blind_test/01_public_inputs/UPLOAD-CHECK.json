@@ -1,0 +1,63 @@
+{
+  "task_id": "POWER-PERF-T2",
+  "platform_eligibility": "BLOCKED_AI_SYNTHETIC",
+  "zip_count": 7,
+  "files": [
+    {
+      "file": "A00_contract.zip",
+      "bytes": 14323,
+      "sha256": "6d2b156999b26fae4320b1762ab968407a5d5a9b6a484e6333c86ea204cc16ca",
+      "members": 9,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A01_organization.zip",
+      "bytes": 1845,
+      "sha256": "34079106d4b851a91d5f703a2dbd24ea09691b02a810ffb48620adc8184140c2",
+      "members": 4,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A02_metering.zip",
+      "bytes": 12518,
+      "sha256": "90e64fa203c7f0f27df466afabbc325059f626c961f561556338d364b8084d31",
+      "members": 4,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A03_commercial.zip",
+      "bytes": 6726,
+      "sha256": "51eb34d39f435ccde2a2286c4b93bd5308b7b21fefecc3d22e888005cfc21340",
+      "members": 5,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A04_incidents.zip",
+      "bytes": 9947,
+      "sha256": "dc50fef4d04b310f190c1fffd6a63e48ad8407d684612d382bd091e86555fb3f",
+      "members": 15,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A05_reviews.zip",
+      "bytes": 1854,
+      "sha256": "7a03c3434a2b9174ba0793c862e547dbc6273b7ab937537ec892cfc9da447517",
+      "members": 4,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    },
+    {
+      "file": "A06_delivery.zip",
+      "bytes": 10049,
+      "sha256": "9a34d6c1a2b6146accdffe65544123d2d3de0d2bbe163db3a8570556d955c413",
+      "members": 7,
+      "crc_test": "PASS",
+      "audience": "SOLVER_PUBLIC_INTERNAL_TEST_ONLY"
+    }
+  ]
+}

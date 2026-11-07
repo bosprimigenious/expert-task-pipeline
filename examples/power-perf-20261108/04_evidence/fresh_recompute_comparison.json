@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "outputs_checked": 10,
+  "files": [
+    {
+      "file": "appeal_decisions.csv",
+      "same_bytes": true,
+      "sha256": "42aca49fe64d43c30483d2430af585766b0c7b6f9036f08680de83a210837a98"
+    },
+    {
+      "file": "change_impact.csv",
+      "same_bytes": true,
+      "sha256": "b0eadb18cfda94f7210c5fd0946c1ce8f5d0d3bddc6bf0300b6e79851ba188ea"
+    },
+    {
+      "file": "event_assessment.csv",
+      "same_bytes": true,
+      "sha256": "dfa06e97fd0f392efd66ac5f91fd70b51b9f754782fa73b0c544725fb67b7c9b"
+    },
+    {
+      "file": "exception_log.csv",
+      "same_bytes": true,
+      "sha256": "74dc7f6dc0328392a394be12f4c14ce37f6e8e827c1b46c22e44f78652ba7ef7"
+    },
+    {
+      "file": "final_decisions.csv",
+      "same_bytes": true,
+      "sha256": "80051e2c3087476ab280a5432661c788ab9cfcff3b48035cb0013285ebc986ee"
+    },
+    {
+      "file": "indicator_results.csv",
+      "same_bytes": true,
+      "sha256": "cae51f2217733a989b405fe6f53c7185b6fed261b0df9cf8408aed19688a9263"
+    },
+    {
+      "file": "monthly_kpis.csv",
+      "same_bytes": true,
+      "sha256": "d64950413e0c81c1f31d9477bcca79003d570bbd2f391b4f203e841cdc503325"
+    },
+    {
+      "file": "organization_mapping.csv",
+      "same_bytes": true,
+      "sha256": "7868edd467c98390d4dedb205237a6411151ade1ac02c48c1758b8c72c764c7f"
+    },
+    {
+      "file": "review_plan.json",
+      "same_bytes": true,
+      "sha256": "24502c70d8e90d2506eeecb8e0de11a6b37aeb6478d82437a550bab35ac52232"
+    },
+    {
+      "file": "selected_records.csv",
+      "same_bytes": true,
+      "sha256": "b3d77cb2fe96a4a9c93fd562ab41c8d1f02bdc184b078078300e1b588672c368"
+    }
+  ],
+  "scope": "CSV numeric reference outputs plus review_plan, not narrative/XLSX regeneration"
+}

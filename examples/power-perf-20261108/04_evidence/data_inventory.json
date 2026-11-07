@@ -1,0 +1,47 @@
+{
+  "input_csv_rows": {
+    "A04_incidents/decisions_initial.csv": 12,
+    "A04_incidents/case_index.csv": 12,
+    "A05_reviews/appeals.csv": 6,
+    "A05_reviews/decisions_updates.csv": 6,
+    "A03_commercial/customer_base.csv": 8,
+    "A03_commercial/receivables.csv": 116,
+    "A03_commercial/waivers.csv": 8,
+    "A03_commercial/complaints.csv": 237,
+    "A01_organization/unit_aliases.csv": 18,
+    "A01_organization/units.csv": 8,
+    "A01_organization/assignments.csv": 31,
+    "A06_delivery/legacy_claims.csv": 8,
+    "A06_delivery/review_actions.csv": 8,
+    "A02_metering/outages.csv": 103,
+    "A02_metering/customer_exposure.csv": 288,
+    "A02_metering/energy_records.csv": 635
+  },
+  "input_csv_total": 1504,
+  "output_csv_rows": {
+    "evidence_index.csv": 80,
+    "final_decisions.csv": 32,
+    "change_impact.csv": 176,
+    "exception_log.csv": 399,
+    "event_assessment.csv": 48,
+    "legacy_audit.csv": 8,
+    "appeal_decisions.csv": 24,
+    "indicator_results.csv": 128,
+    "monthly_kpis.csv": 768,
+    "selected_records.csv": 3968,
+    "organization_mapping.csv": 1152
+  },
+  "assessment_year": 2025,
+  "units": 8,
+  "feeder_months": 288,
+  "incidents": 12,
+  "appeals": 6,
+  "views": [
+    "R0",
+    "R1",
+    "R2",
+    "RB"
+  ],
+  "origin": "ALL_NEW_BUSINESS_DATA_SYNTHETIC",
+  "not_original_v3_reproduction": true
+}

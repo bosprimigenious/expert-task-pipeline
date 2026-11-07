@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "name": "reference_computation",
+      "status": "PASS",
+      "evidence": "reference_engine.py executed; CSV outputs present",
+      "note": "This is a reference build, not a model self-test"
+    },
+    {
+      "name": "independent_sql_fraction",
+      "status": "PASS",
+      "evidence": "162/162; independent_reference_verification.json",
+      "note": "Computational cross-check, not independent human review"
+    },
+    {
+      "name": "workbook_crosscheck",
+      "status": "PASS",
+      "evidence": "32 decision rows +128 KPI rows matched; workbook_verification.json",
+      "note": "artifact_tool calculation engine"
+    },
+    {
+      "name": "workbook_sensitivity",
+      "status": "PASS",
+      "evidence": "2/2 input perturbation and restore tests",
+      "note": "Not a full proof of all edge cases"
+    },
+    {
+      "name": "native_excel",
+      "status": "NOT_RUN",
+      "evidence": "",
+      "note": "No native Excel session"
+    },
+    {
+      "name": "human_domain_review",
+      "status": "NOT_RUN",
+      "evidence": "",
+      "note": "No independent domain expert review"
+    },
+    {
+      "name": "doubao_runs",
+      "status": "NOT_RUN",
+      "evidence": "",
+      "note": "No actual product session used"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "01_platform_upload/A00_contract.zip",
+      "bytes": 14323,
+      "sha256": "6d2b156999b26fae4320b1762ab968407a5d5a9b6a484e6333c86ea204cc16ca"
+    },
+    {
+      "path": "01_platform_upload/A01_organization.zip",
+      "bytes": 1845,
+      "sha256": "34079106d4b851a91d5f703a2dbd24ea09691b02a810ffb48620adc8184140c2"
+    },
+    {
+      "path": "01_platform_upload/A02_metering.zip",
+      "bytes": 12518,
+      "sha256": "90e64fa203c7f0f27df466afabbc325059f626c961f561556338d364b8084d31"
+    },
+    {
+      "path": "01_platform_upload/A03_commercial.zip",
+      "bytes": 6726,
+      "sha256": "51eb34d39f435ccde2a2286c4b93bd5308b7b21fefecc3d22e888005cfc21340"
+    },
+    {
+      "path": "01_platform_upload/A04_incidents.zip",
+      "bytes": 9947,
+      "sha256": "dc50fef4d04b310f190c1fffd6a63e48ad8407d684612d382bd091e86555fb3f"
+    },
+    {
+      "path": "01_platform_upload/A05_reviews.zip",
+      "bytes": 1854,
+      "sha256": "7a03c3434a2b9174ba0793c862e547dbc6273b7ab937537ec892cfc9da447517"
+    },
+    {
+      "path": "01_platform_upload/A06_delivery.zip",
+      "bytes": 10049,
+      "sha256": "9a34d6c1a2b6146accdffe65544123d2d3de0d2bbe163db3a8570556d955c413"
+    },
+    {
+      "path": "03_private_review/rubric_20.md",
+      "bytes": 11191,
+      "sha256": "41bdeb6ac9e04d7e1fd69bf27ee971136ae7f01ff51c3ca4bed501c976bd2e49"
+    },
+    {
+      "path": "03_private_review/criterion_mapping.csv",
+      "bytes": 10801,
+      "sha256": "30e1ee511b44d550306260da9c8c3a0466d9ec816776c7c7cbd6d53ab5eb7f08"
+    },
+    {
+      "path": "03_private_review/standard_answer.md",
+      "bytes": 1554,
+      "sha256": "0f672944f842e042a049b5d2bb24ee7e93d56c56ae3a0fdcdd3121d5901df854"
+    },
+    {
+      "path": "03_private_review/standard_answer_attachments.zip",
+      "bytes": 150924,
+      "sha256": "448394bb2387ce61a7081bd16c1e88ffefb9a529b59c796903f899881973c327"
+    },
+    {
+      "path": "03_private_review/tools/reference_engine.py",
+      "bytes": 15821,
+      "sha256": "3cb1f59cd008c06c6f31a3e645a8ecea93ce0c7221a902e28a0fdc3a3878f8f8"
+    },
+    {
+      "path": "03_private_review/tools/verify_reference.py",
+      "bytes": 8337,
+      "sha256": "38268d20d64a4d47b905ed756055b0c0d34a8489f014a09807393aa6fc50d7bf"
+    },
+    {
+      "path": "03_private_review/tools/grader.py",
+      "bytes": 19689,
+      "sha256": "98ed089ed596deccdaec56481e6957677b79705b534329fc4671d78b8a547a96"
+    },
+    {
+      "path": "02_platform_fields/task_prompt.md",
+      "bytes": 5002,
+      "sha256": "e19b5a8eacaa52e87417cac7b8bc8aa3f0486ec86b2ff26ea7fabe4720d21146"
+    }
+  ]
+}

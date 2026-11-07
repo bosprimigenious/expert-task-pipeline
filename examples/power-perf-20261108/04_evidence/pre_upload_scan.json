@@ -1,0 +1,78 @@
+{
+  "status": "PASS_WITH_SCOPE_LIMITS",
+  "public_archives": [
+    {
+      "file": "A00_contract.zip",
+      "members": 9,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A00_contract"
+    },
+    {
+      "file": "A01_organization.zip",
+      "members": 4,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A01_organization"
+    },
+    {
+      "file": "A02_metering.zip",
+      "members": 4,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A02_metering"
+    },
+    {
+      "file": "A03_commercial.zip",
+      "members": 5,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A03_commercial"
+    },
+    {
+      "file": "A04_incidents.zip",
+      "members": 15,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A04_incidents"
+    },
+    {
+      "file": "A05_reviews.zip",
+      "members": 4,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A05_reviews"
+    },
+    {
+      "file": "A06_delivery.zip",
+      "members": 7,
+      "crc": "PASS",
+      "hash": "PASS",
+      "path_safety": "PASS",
+      "top_level": "A06_delivery"
+    }
+  ],
+  "public_archives_checked": 7,
+  "input_manifest_entries": 47,
+  "input_manifest_all_match": true,
+  "private_filename_hits": [],
+  "source_manifest_complete": true,
+  "standard_answer_zip_files": 16,
+  "standard_answer_zip_manifest": "PASS",
+  "rubric_items": 20,
+  "automated_test_mapping": 76,
+  "human_test_mapping": 4,
+  "scope_limits": [
+    "automated filename/path/hash/content-structure inspection is not proof of zero semantic leakage",
+    "old opinions in A06 are intentional public audit inputs, not hidden gold",
+    "no human industry validation",
+    "no actual platform upload",
+    "no Doubao runs"
+  ]
+}

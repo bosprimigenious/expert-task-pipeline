@@ -1,0 +1,19 @@
+{
+  "plan_id": "PLAN-001",
+  "total_cost": 1,
+  "actions": [
+    {
+      "action_id": "ACT-001",
+      "action_name": "获取C08事故正式裁决文书",
+      "target_item": "C08",
+      "cost": 1,
+      "prerequisites": [],
+      "mutually_exclusive": [],
+      "expected_outcome": "U5解除HOLD状态，全部单位完成终评"
+    }
+  ],
+  "pending_items": [
+    "C08事故裁决未生效"
+  ],
+  "note": "本计划仅为补证安排，不代表已执行或已生效"
+}

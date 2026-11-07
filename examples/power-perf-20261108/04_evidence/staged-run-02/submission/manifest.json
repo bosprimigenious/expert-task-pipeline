@@ -1,0 +1,82 @@
+{
+  "task_id": "POWER-PERF-T2",
+  "delivery_version": "R2-FINAL",
+  "generated_at": "2026-02-09T18:00:00+08:00",
+  "files": [
+    {
+      "filename": "event_assessment.csv",
+      "size_bytes": 978,
+      "sha256": "bb5c86f8c13cecdd51f115b8b14ff9d3af00fe93212c02e2d72f3ff55eec084a"
+    },
+    {
+      "filename": "evidence_index.csv",
+      "size_bytes": 1059,
+      "sha256": "a8592f13dbecd5eed4a39a7ceb99e0d4f7258fb7bbc39033fed1e45f5ffaa4e2"
+    },
+    {
+      "filename": "appeal_decisions.csv",
+      "size_bytes": 846,
+      "sha256": "1056f2b8e03b795d3872ceab188b1930058d3bdcc1442c45f648da5c30e09809"
+    },
+    {
+      "filename": "exception_log.csv",
+      "size_bytes": 427,
+      "sha256": "104ce04ac9d2ed1d7344274529ee515dfb13221348e126aa00d7118a1d8c3271"
+    },
+    {
+      "filename": "review_memo.md",
+      "size_bytes": 1843,
+      "sha256": "0fb75c4fae95da2b5232aa60fe46c0ab21298c2a05e197ae9335f36756f7a468"
+    },
+    {
+      "filename": "review_plan.json",
+      "size_bytes": 475,
+      "sha256": "84fe663de0ad7ada0644b694330dc0e05d45f0cab9bfa704968f5000c917e459"
+    },
+    {
+      "filename": "indicator_results.csv",
+      "size_bytes": 1946,
+      "sha256": "e5047b160cbf537b76df35c8734217deaa338ed85a23f47fe199d4579f7e7eae"
+    },
+    {
+      "filename": "selected_records.csv",
+      "size_bytes": 12452,
+      "sha256": "003c00b270e5b66a3628946557c3120f291263a38b59ecc9491d18ea548fe8be"
+    },
+    {
+      "filename": "legacy_audit.csv",
+      "size_bytes": 988,
+      "sha256": "e169ee59b11e4634fec74e10ffcf8d6c555b5f582cde5167ccd3a7ae43a25def"
+    },
+    {
+      "filename": "monthly_kpis.csv",
+      "size_bytes": 12734,
+      "sha256": "d105eb049d6ae78aed5262c78135571b5cf8f3c751fd4e8ce1bc0a9c8ef4392d"
+    },
+    {
+      "filename": "self_check.json",
+      "size_bytes": 920,
+      "sha256": "b8504381dac7c81f501d2c528868d380789f7285f2871428c78e09557466c1b0"
+    },
+    {
+      "filename": "Power_Performance_Review.xlsx",
+      "size_bytes": 24499,
+      "sha256": "4a16ae418d5fdba6bc71f532027423546b3d604e1f5c1a74d5d1f0b23a3480af"
+    },
+    {
+      "filename": "change_impact.csv",
+      "size_bytes": 512,
+      "sha256": "0dd439cec771562bb32fdf506b4a8053da5fd80d5e805ef6c090f4926b0a4a61"
+    },
+    {
+      "filename": "final_decisions.csv",
+      "size_bytes": 403,
+      "sha256": "71c941e33277f8b050317c482f71f08e1e47e7000cb8473f025fb20edabbbbc1"
+    },
+    {
+      "filename": "organization_mapping.csv",
+      "size_bytes": 964,
+      "sha256": "3e6fd6aff66a58b3cedffe3b69d0133b85c3fe07b11f48e3431f4f3db43d8209"
+    }
+  ]
+}

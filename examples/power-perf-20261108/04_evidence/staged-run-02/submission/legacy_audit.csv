@@ -1,0 +1,9 @@
+﻿claim_id,claim_text,verdict,reason,source_id
+LC01,仅按版本号最大选记录，不考虑known_at时点,REJECTED,P-01要求先按截点可见性筛选，再选最高版本,P-01
+LC02,CANCELLED记录自动恢复上一版POSTED值,REJECTED,P-01禁止回溯恢复旧版本，撤回即该时点无有效值,P-01
+LC03,F18全年运行责任归属U1,REJECTED,F18存在年中职责交接，按时间分段归属,HANDOVER-F18
+LC04,年度线损率=12个月月线损率算术平均,REJECTED,P-02要求年度率=全年总损失/全年总供电量,P-02-K1
+LC05,同一outage_id多版本仅保留最新有效版,SUPPORTED,符合P-02 K2版本合并规则,P-02-K2
+LC06,K3豁免仅扣减分母，不改变回收分子,SUPPORTED,符合P-02 K3豁免计算规则,P-02-K3
+LC07,同一客户同一事件跨渠道投诉仅计1次,SUPPORTED,符合P-02 K4跨渠道去重规则,P-02-K4
+LC08,整改完成自动撤销事故责任扣分,REJECTED,P-03明确整改不改变历史责任，需正式REVOKED文书,P-03

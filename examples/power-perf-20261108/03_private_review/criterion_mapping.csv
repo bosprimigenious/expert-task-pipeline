@@ -1,0 +1,81 @@
+﻿criterion_id,max_points,test_id,test_type,description,public_basis,reference_artifact,implementation,reference_result
+C01,5,C01-a,AUTOMATED,ENERGY selected identities and statuses,P-01 §1-2,selected_records.csv;exception_log.csv,tools/grader.py::assess,PASS
+C01,5,C01-b,AUTOMATED,BILL selected identities and statuses,P-01 §1-2,selected_records.csv;exception_log.csv,tools/grader.py::assess,PASS
+C01,5,C01-c,AUTOMATED,COMPLAINT selected identities and statuses,P-01 §1-2,selected_records.csv;exception_log.csv,tools/grader.py::assess,PASS
+C01,5,C01-d,AUTOMATED,OUTAGE selected identities and statuses,P-01 §1-2,selected_records.csv;exception_log.csv,tools/grader.py::assess,PASS
+C02,5,C02-a,AUTOMATED,R0 assignment mapping,P-01 §3,organization_mapping.csv,tools/grader.py::assess,PASS
+C03,5,C03-a,AUTOMATED,R0 K1 values,P-02-K1,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C04,5,C04-a,AUTOMATED,R0 K2 values,P-02-K2,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C05,5,C05-a,AUTOMATED,R0 K3 values,P-02-K3,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C06,5,C06-a,AUTOMATED,R0 K4 values,P-02-K4,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C07,5,C07-a,AUTOMATED,R0 physical case identity,P-03 physical event register,event_assessment.csv,tools/grader.py::assess,PASS
+C08,5,C08-a,AUTOMATED,R0 case-day roles,P-01 §3; P-03,event_assessment.csv,tools/grader.py::assess,PASS
+C09,5,C09-a,AUTOMATED,R0 legal effectiveness within stipulated policy,P-03 authority and effect,event_assessment.csv,tools/grader.py::assess,PASS
+C10,5,C10-a,AUTOMATED,R0 appeal outcomes,P-05,appeal_decisions.csv,tools/grader.py::assess,PASS
+C11,5,C11-a,AUTOMATED,R0 follows submitted valid-classification arithmetic,P-03 penalty table,event_assessment.csv,tools/grader.py::assess,PASS
+C12,5,C12-a,AUTOMATED,R0 downstream self-consistency rather than duplicate truth penalty,P-04 §1-2,final_decisions.csv,tools/grader.py::assess,PASS
+C13,5,C13-a,AUTOMATED,R0 grade/hold/rank applied to own evidence,P-04 §3-4,final_decisions.csv,tools/grader.py::assess,PASS
+C02,5,C02-b,AUTOMATED,R1 assignment mapping,P-01 §3,organization_mapping.csv,tools/grader.py::assess,PASS
+C03,5,C03-b,AUTOMATED,R1 K1 values,P-02-K1,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C04,5,C04-b,AUTOMATED,R1 K2 values,P-02-K2,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C05,5,C05-b,AUTOMATED,R1 K3 values,P-02-K3,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C06,5,C06-b,AUTOMATED,R1 K4 values,P-02-K4,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C07,5,C07-b,AUTOMATED,R1 physical case identity,P-03 physical event register,event_assessment.csv,tools/grader.py::assess,PASS
+C08,5,C08-b,AUTOMATED,R1 case-day roles,P-01 §3; P-03,event_assessment.csv,tools/grader.py::assess,PASS
+C09,5,C09-b,AUTOMATED,R1 legal effectiveness within stipulated policy,P-03 authority and effect,event_assessment.csv,tools/grader.py::assess,PASS
+C10,5,C10-b,AUTOMATED,R1 appeal outcomes,P-05,appeal_decisions.csv,tools/grader.py::assess,PASS
+C11,5,C11-b,AUTOMATED,R1 follows submitted valid-classification arithmetic,P-03 penalty table,event_assessment.csv,tools/grader.py::assess,PASS
+C12,5,C12-b,AUTOMATED,R1 downstream self-consistency rather than duplicate truth penalty,P-04 §1-2,final_decisions.csv,tools/grader.py::assess,PASS
+C13,5,C13-b,AUTOMATED,R1 grade/hold/rank applied to own evidence,P-04 §3-4,final_decisions.csv,tools/grader.py::assess,PASS
+C02,5,C02-c,AUTOMATED,R2 assignment mapping,P-01 §3,organization_mapping.csv,tools/grader.py::assess,PASS
+C03,5,C03-c,AUTOMATED,R2 K1 values,P-02-K1,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C04,5,C04-c,AUTOMATED,R2 K2 values,P-02-K2,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C05,5,C05-c,AUTOMATED,R2 K3 values,P-02-K3,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C06,5,C06-c,AUTOMATED,R2 K4 values,P-02-K4,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C07,5,C07-c,AUTOMATED,R2 physical case identity,P-03 physical event register,event_assessment.csv,tools/grader.py::assess,PASS
+C08,5,C08-c,AUTOMATED,R2 case-day roles,P-01 §3; P-03,event_assessment.csv,tools/grader.py::assess,PASS
+C09,5,C09-c,AUTOMATED,R2 legal effectiveness within stipulated policy,P-03 authority and effect,event_assessment.csv,tools/grader.py::assess,PASS
+C10,5,C10-c,AUTOMATED,R2 appeal outcomes,P-05,appeal_decisions.csv,tools/grader.py::assess,PASS
+C11,5,C11-c,AUTOMATED,R2 follows submitted valid-classification arithmetic,P-03 penalty table,event_assessment.csv,tools/grader.py::assess,PASS
+C12,5,C12-c,AUTOMATED,R2 downstream self-consistency rather than duplicate truth penalty,P-04 §1-2,final_decisions.csv,tools/grader.py::assess,PASS
+C13,5,C13-c,AUTOMATED,R2 grade/hold/rank applied to own evidence,P-04 §3-4,final_decisions.csv,tools/grader.py::assess,PASS
+C02,5,C02-d,AUTOMATED,RB assignment mapping,P-01 §3,organization_mapping.csv,tools/grader.py::assess,PASS
+C03,5,C03-d,AUTOMATED,RB K1 values,P-02-K1,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C04,5,C04-d,AUTOMATED,RB K2 values,P-02-K2,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C05,5,C05-d,AUTOMATED,RB K3 values,P-02-K3,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C06,5,C06-d,AUTOMATED,RB K4 values,P-02-K4,indicator_results.csv;monthly_kpis.csv,tools/grader.py::assess,PASS
+C07,5,C07-d,AUTOMATED,RB physical case identity,P-03 physical event register,event_assessment.csv,tools/grader.py::assess,PASS
+C08,5,C08-d,AUTOMATED,RB case-day roles,P-01 §3; P-03,event_assessment.csv,tools/grader.py::assess,PASS
+C09,5,C09-d,AUTOMATED,RB legal effectiveness within stipulated policy,P-03 authority and effect,event_assessment.csv,tools/grader.py::assess,PASS
+C10,5,C10-d,AUTOMATED,RB appeal outcomes,P-05,appeal_decisions.csv,tools/grader.py::assess,PASS
+C11,5,C11-d,AUTOMATED,RB follows submitted valid-classification arithmetic,P-03 penalty table,event_assessment.csv,tools/grader.py::assess,PASS
+C12,5,C12-d,AUTOMATED,RB downstream self-consistency rather than duplicate truth penalty,P-04 §1-2,final_decisions.csv,tools/grader.py::assess,PASS
+C13,5,C13-d,AUTOMATED,RB grade/hold/rank applied to own evidence,P-04 §3-4,final_decisions.csv,tools/grader.py::assess,PASS
+C14,5,C14-a,AUTOMATED,RB replays R0: selected_records.csv,P-01 §1,"R0/RB in selected_records,indicators,events,decisions",tools/grader.py::assess,PASS
+C14,5,C14-b,AUTOMATED,RB replays R0: indicator_results.csv,P-01 §1,"R0/RB in selected_records,indicators,events,decisions",tools/grader.py::assess,PASS
+C14,5,C14-c,AUTOMATED,RB replays R0: event_assessment.csv,P-01 §1,"R0/RB in selected_records,indicators,events,decisions",tools/grader.py::assess,PASS
+C14,5,C14-d,AUTOMATED,RB replays R0: final_decisions.csv,P-01 §1,"R0/RB in selected_records,indicators,events,decisions",tools/grader.py::assess,PASS
+C15,5,C15-a,AUTOMATED,Complete 176 change/invariance keys,P-05 change contract,change_impact.csv,tools/grader.py::assess,PASS
+C15,5,C15-b,AUTOMATED,before matches submitted decision snapshot,P-05 change contract,change_impact.csv,tools/grader.py::assess,PASS
+C15,5,C15-c,AUTOMATED,after matches submitted decision snapshot,P-05 change contract,change_impact.csv,tools/grader.py::assess,PASS
+C15,5,C15-d,AUTOMATED,Changed flags reflect semantic difference,P-05 change contract,change_impact.csv,tools/grader.py::assess,PASS
+C16,5,C16-a,AUTOMATED,"Old-draft objections L01,L02",A06 legacy claims; P-01..P-05,legacy_audit.csv,tools/grader.py::assess,PASS
+C16,5,C16-b,AUTOMATED,"Old-draft objections L03,L04",A06 legacy claims; P-01..P-05,legacy_audit.csv,tools/grader.py::assess,PASS
+C16,5,C16-c,AUTOMATED,"Old-draft objections L05,L06",A06 legacy claims; P-01..P-05,legacy_audit.csv,tools/grader.py::assess,PASS
+C16,5,C16-d,AUTOMATED,"Old-draft objections L07,L08",A06 legacy claims; P-01..P-05,legacy_audit.csv,tools/grader.py::assess,PASS
+C17,5,C17-a,AUTOMATED,All four required gaps covered,A06 review_plan_contract,review_plan.json,tools/grader.py::assess,PASS
+C17,5,C17-b,AUTOMATED,"Prerequisites, exclusions, no duplicate actions",A06 review_plan_contract,review_plan.json,tools/grader.py::assess,PASS
+C17,5,C17-c,AUTOMATED,True cost and budget,A06 review_plan_contract,review_plan.json,tools/grader.py::assess,PASS
+C17,5,C17-d,AUTOMATED,Minimum cost and plan-only boundary,A06 review_plan_contract,review_plan.json,tools/grader.py::assess,PASS
+C18,5,C18-a,AUTOMATED,"Readable workbook, required sheets",task.md delivery; P-04 §5,Power_Performance_Review.xlsx,tools/grader.py::assess,PASS
+C18,5,C18-b,AUTOMATED,No macros/external workbook links/hidden sheets,task.md delivery; P-04 §5,Power_Performance_Review.xlsx,tools/grader.py::assess,PASS
+C18,5,C18-c,AUTOMATED,Schema-located summary and indicator linkage formulas (layout independent),task.md delivery; P-04 §5,Power_Performance_Review.xlsx,tools/grader.py::assess,PASS
+C18,5,C18-d,AUTOMATED,Cached values present and free of Excel errors,task.md delivery; P-04 §5,Power_Performance_Review.xlsx,tools/grader.py::assess,PASS
+C19,5,C19-a,AUTOMATED,Required CSV schemas and unique keys,output_schema.json,all structured files + manifest.json,tools/grader.py::assess,PASS
+C19,5,C19-b,AUTOMATED,Workbook summary equals submitted CSV,output_schema.json,all structured files + manifest.json,tools/grader.py::assess,PASS
+C19,5,C19-c,AUTOMATED,All unit/case decisions have traceable evidence entries,output_schema.json,all structured files + manifest.json,tools/grader.py::assess,PASS
+C19,5,C19-d,AUTOMATED,Output manifest binds actual bytes without self-hash,output_schema.json,all structured files + manifest.json,tools/grader.py::assess,PASS
+C20,5,C20-a,HUMAN,R2结论、HOLD与业务用途准确，不能只报程序通过,task.md memo and evidence obligations,review_memo.md;evidence_index.csv;self_check.json,human_review.json,NOT_RUN
+C20,5,C20-b,HUMAN,关键结论的证据真实支持对应对象/期间/效力；能追溯原始记录,task.md memo and evidence obligations,review_memo.md;evidence_index.csv;self_check.json,human_review.json,NOT_RUN
+C20,5,C20-c,HUMAN,两次变化、保持项和未决解释完整；不把未来信息写成过去已知,task.md memo and evidence obligations,review_memo.md;evidence_index.csv;self_check.json,human_review.json,NOT_RUN
+C20,5,C20-d,HUMAN,补证/发布/处分未执行时如实声明；复核根因传播，接受合法替代证据,task.md memo and evidence obligations,review_memo.md;evidence_index.csv;self_check.json,human_review.json,NOT_RUN

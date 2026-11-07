@@ -1,0 +1,60 @@
+{
+  "scope": "STRUCTURE_ONLY_NOT_A_SCORE",
+  "checks": [
+    {
+      "file": "appeal_decisions.csv",
+      "structural_check": "PASS",
+      "rows": 24
+    },
+    {
+      "file": "change_impact.csv",
+      "structural_check": "PASS",
+      "rows": 176
+    },
+    {
+      "file": "event_assessment.csv",
+      "structural_check": "PASS",
+      "rows": 48
+    },
+    {
+      "file": "exception_log.csv",
+      "structural_check": "PASS",
+      "rows": 399
+    },
+    {
+      "file": "final_decisions.csv",
+      "structural_check": "PASS",
+      "rows": 32
+    },
+    {
+      "file": "indicator_results.csv",
+      "structural_check": "PASS",
+      "rows": 128
+    },
+    {
+      "file": "monthly_kpis.csv",
+      "structural_check": "PASS",
+      "rows": 768
+    },
+    {
+      "file": "organization_mapping.csv",
+      "structural_check": "PASS",
+      "rows": 1152
+    },
+    {
+      "file": "selected_records.csv",
+      "structural_check": "PASS",
+      "rows": 3968
+    },
+    {
+      "file": "legacy_audit.csv",
+      "structural_check": "PASS",
+      "rows": 8
+    },
+    {
+      "file": "evidence_index.csv",
+      "structural_check": "PASS",
+      "rows": 80
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+KeyError: 'snapshot' — final_decisions.csv has no snapshot column; indicator_results.csv has no snapshot column; R0/R1/RB artifacts absent.

@@ -1,0 +1,34 @@
+{
+  "summary_rows_checked": 32,
+  "summary_matches_csv": true,
+  "indicator_rows_checked": 128,
+  "indicator_matches_csv": true,
+  "sensitivity_tests": [
+    {
+      "test": "K1-loss",
+      "cell": "Monthly Inputs!E390",
+      "target": "Indicator Model!F70",
+      "delta": 1000,
+      "before": 3.467603584409976,
+      "after": 3.4677475366178427,
+      "expected_delta": 0.00014395220786698817,
+      "restored": 3.467603584409976,
+      "passed": true
+    },
+    {
+      "test": "K3-paid",
+      "cell": "Monthly Inputs!E486",
+      "target": "Indicator Model!F80",
+      "delta": 2500,
+      "before": 99.43295998813207,
+      "after": 99.43825816979613,
+      "expected_delta": 0.005298181664052897,
+      "restored": 99.43295998813207,
+      "passed": true
+    }
+  ],
+  "formula_error_scan": "0 matches observed",
+  "visual_check": "Summary R2 bounded preview inspected; no full UI/browser functionality is claimed",
+  "engine": "artifact_tool recalculation; not native Microsoft Excel",
+  "native_excel_recalculation": "NOT_RUN"
+}

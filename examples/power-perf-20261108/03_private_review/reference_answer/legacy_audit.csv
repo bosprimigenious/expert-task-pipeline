@@ -1,0 +1,9 @@
+﻿claim_id,verdict,policy_ids,reason,workbook_location
+L01,REJECTED,P-01§1-2,先截点筛选，再选择可知版本；未来高版本不进入历史视图。,Legacy Logic!B6
+L02,REJECTED,P-01§2-4,CANCELLED是最终撤回，不回退旧值；未决字段保留空。,Legacy Logic!B7
+L03,REJECTED,P-01§3,按月初/事故日及当时可知交接记录，不将当前单位套全年。,Legacy Logic!B8
+L04,REJECTED,P-02-K1,用分子分母聚合并按两个制度期供电量加权扣分。,Legacy Logic!B9
+L05,REJECTED,P-02-K4,同客户同事件跨渠道去重；不能仅计95598，也不能三渠道都加。,Legacy Logic!B10
+L06,REJECTED,P-04§3,先累计降级，再应用最高等级限制，两算子不可倒置。,Legacy Logic!B11
+L07,REJECTED,P-03;P-05,只有有效撤销决定才取消执行；申诉申请不自动中止。,Legacy Logic!B12
+L08,REJECTED,P-03;P-05,计划仍待执行，C08仍未决，不能把计划当已经补证。,Legacy Logic!B13

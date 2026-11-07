@@ -1,0 +1,13 @@
+﻿mechanism_id,name,construction,hypothesized_error,verification,criteria,status
+H01,可知时间与业务时间分离,未来高版本与早期记录并存,误用未来证据,R0/RB及所选记录,"C01,C14",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H02,最终撤回而非旧值恢复,售电值撤回后下个时点恢复,用旧POSTED掩盖缺证,UNDETERMINED及恢复,"C01,C03",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H03,追溯职责更正,F18交接有效日与获知日不同,当前归口套历史,计量归口与C03责任,"C02,C08",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H04,混合计量单位与分母加权,kWh/10k_kWh及两制度期,平均百分比或倍率错,K1年度率与扣分,C03,HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H05,独立曝光分母,停电曝光与事故工单粒度不同,混用去重规则,K2率与扣分,C04,HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H06,授权、签字、范围,真实模拟文书有不同适用性,有文件就减账,K3与AP01/AP02,"C05,C10",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H07,多渠道、同客户同事件,撤回单渠道仍有其他渠道,重复计数或过度删除,K4唯一投诉,C06,HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H08,草稿、送达与撤销,文书属性各自不能代替,申请或整改当撤销,12案时点状态,"C09,C10",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H09,不同角色不同半额,同等责任4与5,各扣4或只扣一方,C03及角色处罚,C11,HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H10,降级与封顶不可交换,原始级别先降再cap,先cap后降或漏项,等级与排名,"C12,C13",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H11,更新与不变性,R1/R2变化及RB回放,只改摘要或污染历史,变化表与RB,"C14,C15",HYPOTHESIS_NOT_DOUBAO_VALIDATED
+H12,既有工作簿与结果复核,旧稿公式/范围错误、最小补证计划,看文件存在就宣称完成,公式、最优方案与备忘录,"C16,C17,C18,C19,C20",HYPOTHESIS_NOT_DOUBAO_VALIDATED

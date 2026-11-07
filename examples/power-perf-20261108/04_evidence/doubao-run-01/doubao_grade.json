@@ -1,0 +1,731 @@
+{
+  "task_id": "POWER-PERF-T2",
+  "scoring_scheme": "CANDIDATE_20x5_5_2_0",
+  "final_score": null,
+  "score_interval": [
+    49,
+    54
+  ],
+  "machine_checks_passed": 42,
+  "machine_checks_total": 76,
+  "criteria": [
+    {
+      "criterion_id": "C01",
+      "name": "版本选择与撤回",
+      "description": "各族先过滤known_at与重复，再选最终版本；撤回不回退",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C02",
+      "name": "历史归口",
+      "description": "按月初及当时可知职责重建馈线归口",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C03",
+      "name": "K1双制度期核算",
+      "description": "分子分母及区间加权扣分；缺失不补零",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C04",
+      "name": "K2曝光与扣分",
+      "description": "使用独立客户分钟分母与正确档位",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C05",
+      "name": "K3账量和豁免",
+      "description": "余额替代、授权范围及分母调整",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C06",
+      "name": "K4全渠道去重",
+      "description": "同客户同事件，保留独立客户投诉",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C07",
+      "name": "事故身份覆盖",
+      "description": "12个物理事故，不按工单重复",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C08",
+      "name": "事故日双角色归口",
+      "description": "设备与运行责任分开、追溯更正正确",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C09",
+      "name": "权限送达与效力",
+      "description": "只用有权且已知/生效/送达的正式文书",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C10",
+      "name": "申诉裁决",
+      "description": "六项按各截点分别判断，不把申请当撤销",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C11",
+      "name": "角色处罚执行",
+      "description": "按已裁定类型正确执行4/5等责任与限制",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C12",
+      "name": "汇总分数勾稽",
+      "description": "自身明细到总表正确汇总、暂计分不伪装正式分",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C13",
+      "name": "等级未决与排名",
+      "description": "先降级后封顶，HOLD排除，名次按等级/分数",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C14",
+      "name": "历史回放不污染",
+      "description": "RB与R0的选择、指标、事件和裁决一致",
+      "passed_tests": 3,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 2
+    },
+    {
+      "criterion_id": "C15",
+      "name": "更新和不变集合",
+      "description": "两相邻视图11字段全部比较，保持项不遗漏",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C16",
+      "name": "旧稿审核",
+      "description": "8项旧意见的结论、规则依据与定位",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C17",
+      "name": "补证计划",
+      "description": "覆盖、前置、互斥、预算和最优性",
+      "passed_tests": 0,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 0
+    },
+    {
+      "criterion_id": "C18",
+      "name": "工作簿模型",
+      "description": "可读、无危险特性、关键计算保留引用公式",
+      "passed_tests": 4,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 5
+    },
+    {
+      "criterion_id": "C19",
+      "name": "交付一致性",
+      "description": "表结构、总表值、引用覆盖、哈希清单一致",
+      "passed_tests": 3,
+      "test_count": 4,
+      "status": "MACHINE_CHECKED",
+      "provisional_points": 2
+    },
+    {
+      "criterion_id": "C20",
+      "name": "业务备忘录与证据审查",
+      "description": "人工检查事实支持、变化解释、未决边界及完成声明",
+      "passed_tests": 0,
+      "test_count": 0,
+      "status": "MANUAL_PENDING",
+      "provisional_points": null
+    }
+  ],
+  "tests": [
+    {
+      "test_id": "C01-a",
+      "criterion_id": "C01",
+      "description": "ENERGY selected identities and statuses",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C01-b",
+      "criterion_id": "C01",
+      "description": "BILL selected identities and statuses",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C01-c",
+      "criterion_id": "C01",
+      "description": "COMPLAINT selected identities and statuses",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C01-d",
+      "criterion_id": "C01",
+      "description": "OUTAGE selected identities and statuses",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C02-a",
+      "criterion_id": "C02",
+      "description": "R0 assignment mapping",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C03-a",
+      "criterion_id": "C03",
+      "description": "R0 K1 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C04-a",
+      "criterion_id": "C04",
+      "description": "R0 K2 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C05-a",
+      "criterion_id": "C05",
+      "description": "R0 K3 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C06-a",
+      "criterion_id": "C06",
+      "description": "R0 K4 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C07-a",
+      "criterion_id": "C07",
+      "description": "R0 physical case identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C08-a",
+      "criterion_id": "C08",
+      "description": "R0 case-day roles",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C09-a",
+      "criterion_id": "C09",
+      "description": "R0 legal effectiveness within stipulated policy",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C10-a",
+      "criterion_id": "C10",
+      "description": "R0 appeal outcomes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C11-a",
+      "criterion_id": "C11",
+      "description": "R0 follows submitted valid-classification arithmetic",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C12-a",
+      "criterion_id": "C12",
+      "description": "R0 downstream self-consistency rather than duplicate truth penalty",
+      "passed": false,
+      "error": "InvalidOperation: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "test_id": "C13-a",
+      "criterion_id": "C13",
+      "description": "R0 grade/hold/rank applied to own evidence",
+      "passed": false,
+      "error": "ValueError: invalid literal for int() with base 10: 'A'"
+    },
+    {
+      "test_id": "C02-b",
+      "criterion_id": "C02",
+      "description": "R1 assignment mapping",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C03-b",
+      "criterion_id": "C03",
+      "description": "R1 K1 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C04-b",
+      "criterion_id": "C04",
+      "description": "R1 K2 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C05-b",
+      "criterion_id": "C05",
+      "description": "R1 K3 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C06-b",
+      "criterion_id": "C06",
+      "description": "R1 K4 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C07-b",
+      "criterion_id": "C07",
+      "description": "R1 physical case identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C08-b",
+      "criterion_id": "C08",
+      "description": "R1 case-day roles",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C09-b",
+      "criterion_id": "C09",
+      "description": "R1 legal effectiveness within stipulated policy",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C10-b",
+      "criterion_id": "C10",
+      "description": "R1 appeal outcomes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C11-b",
+      "criterion_id": "C11",
+      "description": "R1 follows submitted valid-classification arithmetic",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C12-b",
+      "criterion_id": "C12",
+      "description": "R1 downstream self-consistency rather than duplicate truth penalty",
+      "passed": false,
+      "error": "InvalidOperation: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "test_id": "C13-b",
+      "criterion_id": "C13",
+      "description": "R1 grade/hold/rank applied to own evidence",
+      "passed": false,
+      "error": "ValueError: invalid literal for int() with base 10: 'A'"
+    },
+    {
+      "test_id": "C02-c",
+      "criterion_id": "C02",
+      "description": "R2 assignment mapping",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C03-c",
+      "criterion_id": "C03",
+      "description": "R2 K1 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C04-c",
+      "criterion_id": "C04",
+      "description": "R2 K2 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C05-c",
+      "criterion_id": "C05",
+      "description": "R2 K3 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C06-c",
+      "criterion_id": "C06",
+      "description": "R2 K4 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C07-c",
+      "criterion_id": "C07",
+      "description": "R2 physical case identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C08-c",
+      "criterion_id": "C08",
+      "description": "R2 case-day roles",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C09-c",
+      "criterion_id": "C09",
+      "description": "R2 legal effectiveness within stipulated policy",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C10-c",
+      "criterion_id": "C10",
+      "description": "R2 appeal outcomes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C11-c",
+      "criterion_id": "C11",
+      "description": "R2 follows submitted valid-classification arithmetic",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C12-c",
+      "criterion_id": "C12",
+      "description": "R2 downstream self-consistency rather than duplicate truth penalty",
+      "passed": false,
+      "error": "InvalidOperation: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "test_id": "C13-c",
+      "criterion_id": "C13",
+      "description": "R2 grade/hold/rank applied to own evidence",
+      "passed": false,
+      "error": "ValueError: invalid literal for int() with base 10: 'A'"
+    },
+    {
+      "test_id": "C02-d",
+      "criterion_id": "C02",
+      "description": "RB assignment mapping",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C03-d",
+      "criterion_id": "C03",
+      "description": "RB K1 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C04-d",
+      "criterion_id": "C04",
+      "description": "RB K2 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C05-d",
+      "criterion_id": "C05",
+      "description": "RB K3 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C06-d",
+      "criterion_id": "C06",
+      "description": "RB K4 values",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C07-d",
+      "criterion_id": "C07",
+      "description": "RB physical case identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C08-d",
+      "criterion_id": "C08",
+      "description": "RB case-day roles",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C09-d",
+      "criterion_id": "C09",
+      "description": "RB legal effectiveness within stipulated policy",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C10-d",
+      "criterion_id": "C10",
+      "description": "RB appeal outcomes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C11-d",
+      "criterion_id": "C11",
+      "description": "RB follows submitted valid-classification arithmetic",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C12-d",
+      "criterion_id": "C12",
+      "description": "RB downstream self-consistency rather than duplicate truth penalty",
+      "passed": false,
+      "error": "InvalidOperation: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "test_id": "C13-d",
+      "criterion_id": "C13",
+      "description": "RB grade/hold/rank applied to own evidence",
+      "passed": false,
+      "error": "ValueError: invalid literal for int() with base 10: 'A'"
+    },
+    {
+      "test_id": "C14-a",
+      "criterion_id": "C14",
+      "description": "RB replays R0: selected_records.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C14-b",
+      "criterion_id": "C14",
+      "description": "RB replays R0: indicator_results.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C14-c",
+      "criterion_id": "C14",
+      "description": "RB replays R0: event_assessment.csv",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C14-d",
+      "criterion_id": "C14",
+      "description": "RB replays R0: final_decisions.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C15-a",
+      "criterion_id": "C15",
+      "description": "Complete 176 change/invariance keys",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C15-b",
+      "criterion_id": "C15",
+      "description": "before matches submitted decision snapshot",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C15-c",
+      "criterion_id": "C15",
+      "description": "after matches submitted decision snapshot",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C15-d",
+      "criterion_id": "C15",
+      "description": "Changed flags reflect semantic difference",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C16-a",
+      "criterion_id": "C16",
+      "description": "Old-draft objections L01,L02",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C16-b",
+      "criterion_id": "C16",
+      "description": "Old-draft objections L03,L04",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C16-c",
+      "criterion_id": "C16",
+      "description": "Old-draft objections L05,L06",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C16-d",
+      "criterion_id": "C16",
+      "description": "Old-draft objections L07,L08",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C17-a",
+      "criterion_id": "C17",
+      "description": "All four required gaps covered",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C17-b",
+      "criterion_id": "C17",
+      "description": "Prerequisites, exclusions, no duplicate actions",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C17-c",
+      "criterion_id": "C17",
+      "description": "True cost and budget",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C17-d",
+      "criterion_id": "C17",
+      "description": "Minimum cost and plan-only boundary",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C18-a",
+      "criterion_id": "C18",
+      "description": "Readable workbook, required sheets",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C18-b",
+      "criterion_id": "C18",
+      "description": "No macros/external workbook links/hidden sheets",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C18-c",
+      "criterion_id": "C18",
+      "description": "Schema-located summary and indicator linkage formulas (layout independent)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C18-d",
+      "criterion_id": "C18",
+      "description": "Cached values present and free of Excel errors",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C19-a",
+      "criterion_id": "C19",
+      "description": "Required CSV schemas and unique keys",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C19-b",
+      "criterion_id": "C19",
+      "description": "Workbook summary equals submitted CSV",
+      "passed": true,
+      "error": null
+    },
+    {
+      "test_id": "C19-c",
+      "criterion_id": "C19",
+      "description": "All unit/case decisions have traceable evidence entries",
+      "passed": false,
+      "error": null
+    },
+    {
+      "test_id": "C19-d",
+      "criterion_id": "C19",
+      "description": "Output manifest binds actual bytes without self-hash",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "manual_review_required": [
+    "C20 narrative/evidence/follow-through judgment"
+  ],
+  "note": "This is not a Doubao run. A final grade requires human review; follow-through checks use submitted upstream values. No arbitrary root-error multiplier."
+}

@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "passed": 14,
+  "total": 14,
+  "tests": [
+    {
+      "test_id": "future_version",
+      "expected_criterion": "C01",
+      "detected": true,
+      "failed_test_ids": [
+        "C01-a",
+        "C14-a"
+      ],
+      "score_interval": [
+        89,
+        94
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "cancelled_resurrection",
+      "expected_criterion": "C01",
+      "detected": true,
+      "failed_test_ids": [
+        "C01-a"
+      ],
+      "score_interval": [
+        92,
+        97
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "current_owner_for_history",
+      "expected_criterion": "C02",
+      "detected": true,
+      "failed_test_ids": [
+        "C02-b"
+      ],
+      "score_interval": [
+        92,
+        97
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "wrong_k1",
+      "expected_criterion": "C03",
+      "detected": true,
+      "failed_test_ids": [
+        "C03-c"
+      ],
+      "score_interval": [
+        92,
+        97
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "wrong_k2",
+      "expected_criterion": "C04",
+      "detected": true,
+      "failed_test_ids": [
+        "C04-c",
+        "C12-c"
+      ],
+      "score_interval": [
+        89,
+        94
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "wrong_k3",
+      "expected_criterion": "C05",
+      "detected": true,
+      "failed_test_ids": [
+        "C05-c",
+        "C12-c"
+      ],
+      "score_interval": [
+        89,
+        94
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "wrong_complaint_dedup",
+      "expected_criterion": "C06",
+      "detected": true,
+      "failed_test_ids": [
+        "C06-c"
+      ],
+      "score_interval": [
+        92,
+        97
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "draft_as_final",
+      "expected_criterion": "C09",
+      "detected": true,
+      "failed_test_ids": [
+        "C09-a",
+        "C11-a",
+        "C14-c"
+      ],
+      "score_interval": [
+        86,
+        91
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "unsigned_waiver_supported",
+      "expected_criterion": "C10",
+      "detected": true,
+      "failed_test_ids": [
+        "C10-c"
+      ],
+      "score_interval": [
+        92,
+        97
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "equal_share_four_four",
+      "expected_criterion": "C11",
+      "detected": true,
+      "failed_test_ids": [
+        "C11-c",
+        "C12-c"
+      ],
+      "score_interval": [
+        89,
+        94
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "hold_as_A",
+      "expected_criterion": "C13",
+      "detected": true,
+      "failed_test_ids": [
+        "C13-c",
+        "C15-c",
+        "C19-b"
+      ],
+      "score_interval": [
+        86,
+        91
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "rollback_contaminated",
+      "expected_criterion": "C14",
+      "detected": true,
+      "failed_test_ids": [
+        "C12-d",
+        "C13-d",
+        "C14-d",
+        "C19-b"
+      ],
+      "score_interval": [
+        83,
+        88
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "missing_workbook",
+      "expected_criterion": "C18",
+      "detected": true,
+      "failed_test_ids": [
+        "C18-a",
+        "C18-b",
+        "C18-c",
+        "C18-d",
+        "C19-b"
+      ],
+      "score_interval": [
+        87,
+        92
+      ],
+      "final_score": null
+    },
+    {
+      "test_id": "empty_submission_not_full_credit",
+      "detected": true,
+      "passed_checks": 0
+    }
+  ],
+  "note": "Mutation detection is not independent validation of all ground truth and is not a Doubao score."
+}

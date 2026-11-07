@@ -1,0 +1,836 @@
+{
+  "status": "PASS",
+  "passed": 162,
+  "total": 162,
+  "checks": [
+    {
+      "test_id": "SQL_R0_ENERGY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R0_BILL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R0_OUTAGE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R0_COMPLAINT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U1_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U1_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U1_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U1_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U2_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U2_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U2_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U2_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U3_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U3_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U3_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U3_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U4_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U4_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U4_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U4_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U5_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U5_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U5_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U5_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U6_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U6_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U6_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U6_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U7_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U7_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U7_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U7_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U8_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U8_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U8_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R0_U8_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R1_ENERGY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R1_BILL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R1_OUTAGE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R1_COMPLAINT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U1_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U1_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U1_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U1_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U2_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U2_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U2_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U2_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U3_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U3_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U3_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U3_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U4_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U4_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U4_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U4_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U5_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U5_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U5_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U5_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U6_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U6_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U6_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U6_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U7_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U7_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U7_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U7_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U8_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U8_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U8_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R1_U8_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R2_ENERGY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R2_BILL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R2_OUTAGE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_R2_COMPLAINT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U1_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U1_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U1_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U1_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U2_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U2_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U2_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U2_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U3_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U3_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U3_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U3_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U4_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U4_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U4_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U4_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U5_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U5_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U5_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U5_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U6_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U6_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U6_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U6_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U7_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U7_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U7_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U7_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U8_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U8_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U8_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_R2_U8_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_RB_ENERGY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_RB_BILL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_RB_OUTAGE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "SQL_RB_COMPLAINT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U1_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U1_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U1_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U1_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U2_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U2_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U2_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U2_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U3_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U3_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U3_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U3_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U4_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U4_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U4_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U4_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U5_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U5_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U5_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U5_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U6_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U6_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U6_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U6_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U7_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U7_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U7_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U7_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U8_K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U8_K2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U8_K3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "FRACTION_RB_U8_K4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "STATE_R0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "C03_ROLE_R0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "STATE_R1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "C03_ROLE_R1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "STATE_R2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "C03_ROLE_R2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "STATE_RB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "C03_ROLE_RB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REVOKED_R2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "R2_EVENT_TOTALS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "R2_PENDING_ONLY_U5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_selected_records.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_monthly_kpis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_indicator_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_event_assessment.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_final_decisions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "REPLAY_appeal_decisions.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test_id": "PLAN_OPTIMUM",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "optimal_plans": [
+    [
+      "A1",
+      "A8"
+    ],
+    [
+      "A1",
+      "A2",
+      "A3"
+    ]
+  ],
+  "method": "SQL window + Fraction + separately encoded transition expectations + combinations enumeration",
+  "not_claimed": [
+    "independent human domain review",
+    "live Doubao self-test",
+    "platform acceptance",
+    "global proof of all narrative evidence semantics"
+  ],
+  "elapsed_seconds": 0.06982558799995786
+}

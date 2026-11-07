@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "summary": {
+    "selected_records.csv": {
+      "rows": 3968,
+      "columns": 6
+    },
+    "exception_log.csv": {
+      "rows": 399,
+      "columns": 6
+    },
+    "organization_mapping.csv": {
+      "rows": 1152,
+      "columns": 6
+    },
+    "monthly_kpis.csv": {
+      "rows": 768,
+      "columns": 10
+    },
+    "indicator_results.csv": {
+      "rows": 128,
+      "columns": 9
+    },
+    "event_assessment.csv": {
+      "rows": 48,
+      "columns": 17
+    },
+    "appeal_decisions.csv": {
+      "rows": 24,
+      "columns": 6
+    },
+    "final_decisions.csv": {
+      "rows": 32,
+      "columns": 14
+    },
+    "change_impact.csv": {
+      "rows": 176,
+      "columns": 7
+    },
+    "legacy_audit.csv": {
+      "rows": 8,
+      "columns": 5
+    },
+    "evidence_index.csv": {
+      "rows": 80,
+      "columns": 6
+    }
+  }
+}

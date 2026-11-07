@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "check_name": "文件完整性校验",
+      "result": "PASS",
+      "detail": "所有要求文件均已生成"
+    },
+    {
+      "check_name": "Schema列名校验",
+      "result": "PASS",
+      "detail": "列名与枚举符合output_schema要求"
+    },
+    {
+      "check_name": "快照时点隔离",
+      "result": "PASS",
+      "detail": "R0/R1/R2无未来数据泄漏"
+    },
+    {
+      "check_name": "状态枚举正确性",
+      "result": "PASS",
+      "detail": "HOLD单位数字字段留空，无非法状态"
+    },
+    {
+      "check_name": "RB回放一致性",
+      "result": "PASS",
+      "detail": "RB与R0逐字段一致"
+    },
+    {
+      "check_name": "工作簿公式校验",
+      "result": "NOT_RUN",
+      "detail": "本次交付为静态值导出，公式化实现未执行"
+    }
+  ],
+  "summary": "核心业务校验全部通过，工作簿公式项未执行"
+}

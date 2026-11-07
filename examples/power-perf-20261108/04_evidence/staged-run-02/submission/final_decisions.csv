@@ -1,0 +1,9 @@
+﻿unit_id,provisional_score,final_score,raw_grade,shift_count,cap_grade,final_grade,rank,score_status,pending_items
+U1,62.88,62.88,C,1,C,C,5.0,FINAL,
+U2,88.6,88.6,B,0,A,B,2.0,FINAL,
+U3,97.0,97.0,A,0,A,A,1.0,FINAL,
+U4,72.0,72.0,C,0,C,C,4.0,FINAL,
+U5,90.0,,A,0,A,HOLD,,PROVISIONAL,C08事故裁决未生效
+U6,88.0,88.0,B,0,D,D,6.0,FINAL,
+U7,100.0,100.0,A,0,A,A,1.0,FINAL,
+U8,97.0,97.0,A,0,A,A,1.0,FINAL,

@@ -1,0 +1,5 @@
+﻿record_id,record_type,exception_type,snapshot,reason,source_id
+M-24-12-sold-2,energy_sold,CANCELLED,R2,2026-01-20撤回，R2时点已生效,M24-RETRACT
+WV02,waiver,INVALID_SIGNATURE,R0,无有效签字，R0阶段不生效,WAIVER-02
+TKT-009-0,complaint,UNSUBSTANTIATED,ALL,substantiated=false，不计入投诉统计,COMPLAINT-009
+DEC-C08-1,incident_decision,DRAFT_UNSERVED,ALL,草稿未送达，不具备裁决效力,DEC-C08

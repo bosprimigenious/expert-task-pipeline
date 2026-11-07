@@ -1,0 +1,276 @@
+{
+  "status": "INVALID_SCHEMA",
+  "findings": [
+    {
+      "severity": "blocker",
+      "file": "selected_records.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "selected_records.csv",
+      "problem": "missing column family"
+    },
+    {
+      "severity": "blocker",
+      "file": "selected_records.csv",
+      "problem": "missing column business_key"
+    },
+    {
+      "severity": "blocker",
+      "file": "exception_log.csv",
+      "problem": "missing column family"
+    },
+    {
+      "severity": "blocker",
+      "file": "exception_log.csv",
+      "problem": "missing column business_key"
+    },
+    {
+      "severity": "blocker",
+      "file": "exception_log.csv",
+      "problem": "missing snapshots ['R1', 'RB']"
+    },
+    {
+      "severity": "blocker",
+      "file": "organization_mapping.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "organization_mapping.csv",
+      "problem": "missing column asset_id"
+    },
+    {
+      "severity": "blocker",
+      "file": "monthly_kpis.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "monthly_kpis.csv",
+      "problem": "missing column exemption_yuan"
+    },
+    {
+      "severity": "blocker",
+      "file": "monthly_kpis.csv",
+      "problem": "missing column source_rule"
+    },
+    {
+      "severity": "blocker",
+      "file": "indicator_results.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "indicator_results.csv",
+      "problem": "missing column rate"
+    },
+    {
+      "severity": "blocker",
+      "file": "indicator_results.csv",
+      "problem": "missing column penalty"
+    },
+    {
+      "severity": "blocker",
+      "file": "indicator_results.csv",
+      "problem": "missing column source_rule"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column state"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column finding"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column device_shift"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column operator_shift"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column pending_units"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column decision_doc"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column assignment_source"
+    },
+    {
+      "severity": "blocker",
+      "file": "event_assessment.csv",
+      "problem": "missing column source_rule"
+    },
+    {
+      "severity": "blocker",
+      "file": "appeal_decisions.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "appeal_decisions.csv",
+      "problem": "missing column outcome"
+    },
+    {
+      "severity": "blocker",
+      "file": "appeal_decisions.csv",
+      "problem": "missing column evidence_id"
+    },
+    {
+      "severity": "blocker",
+      "file": "appeal_decisions.csv",
+      "problem": "missing column source_rule"
+    },
+    {
+      "severity": "blocker",
+      "file": "final_decisions.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "final_decisions.csv",
+      "problem": "missing column kpi_penalty"
+    },
+    {
+      "severity": "blocker",
+      "file": "final_decisions.csv",
+      "problem": "missing column event_penalty"
+    },
+    {
+      "severity": "blocker",
+      "file": "final_decisions.csv",
+      "problem": "missing column grade_cap"
+    },
+    {
+      "severity": "blocker",
+      "file": "final_decisions.csv",
+      "problem": "missing column source_rule"
+    },
+    {
+      "severity": "blocker",
+      "file": "change_impact.csv",
+      "problem": "missing column from_snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "change_impact.csv",
+      "problem": "missing column to_snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "change_impact.csv",
+      "problem": "missing column before"
+    },
+    {
+      "severity": "blocker",
+      "file": "change_impact.csv",
+      "problem": "missing column after"
+    },
+    {
+      "severity": "blocker",
+      "file": "legacy_audit.csv",
+      "problem": "missing column policy_ids"
+    },
+    {
+      "severity": "blocker",
+      "file": "legacy_audit.csv",
+      "problem": "missing column workbook_location"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column snapshot"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column object_type"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column object_id"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column source_locator"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column policy_id"
+    },
+    {
+      "severity": "blocker",
+      "file": "evidence_index.csv",
+      "problem": "missing column explanation"
+    }
+  ],
+  "summary": {
+    "selected_records.csv": {
+      "rows": 144,
+      "columns": 7
+    },
+    "exception_log.csv": {
+      "rows": 4,
+      "columns": 6
+    },
+    "organization_mapping.csv": {
+      "rows": 29,
+      "columns": 5
+    },
+    "monthly_kpis.csv": {
+      "rows": 384,
+      "columns": 7
+    },
+    "indicator_results.csv": {
+      "rows": 32,
+      "columns": 10
+    },
+    "event_assessment.csv": {
+      "rows": 12,
+      "columns": 14
+    },
+    "appeal_decisions.csv": {
+      "rows": 6,
+      "columns": 9
+    },
+    "final_decisions.csv": {
+      "rows": 8,
+      "columns": 10
+    },
+    "change_impact.csv": {
+      "rows": 6,
+      "columns": 8
+    },
+    "legacy_audit.csv": {
+      "rows": 8,
+      "columns": 5
+    },
+    "evidence_index.csv": {
+      "rows": 20,
+      "columns": 4
+    }
+  }
+}
