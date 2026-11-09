@@ -269,3 +269,11 @@ If you use the pipeline concepts, cite this repository and the case study:
 Expert Task Pipeline — POWER-PERF canonical failure case (2026).
 https://github.com/bosprimigenious/expert-task-pipeline
 ```
+
+## 升级文档（2026-11-09）
+- [Rubric v4](docs/RUBRIC-V4.md)
+- [分阶段盲测协议](docs/STAGED-RUN-PROTOCOL.md)
+- [C20 评审包](docs/C20-REVIEW-PACK.md)
+- [平台七列与分类](docs/PLATFORM-FIELDS.md)
+- [拆包交付](docs/DELIVERY-UNPACKED.md)
+- [五题复盘](docs/LESSONS-20261109.md)
