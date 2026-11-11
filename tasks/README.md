@@ -4,7 +4,7 @@ Batch: SIX-TASK-2026-11-11
 Base pipeline commit: 452db4a29bb8f738a6547ebc1339fc88bbd1b035  
 Working branch: six-task-run-2026-11-11
 
-**Direction update (2026-11-11):** the initial AI Infra / Data / IAM / Release / Database / SRE list is superseded. The active six-task design is in [SIX_TASK_REDESIGN.md](SIX_TASK_REDESIGN.md). Do not continue the superseded topics unless a later explicit decision restores them.
+**Direction update V2 (2026-11-11):** both the initial engineering-only list and V1 incident list are superseded. The active six-task design is [SIX_TASK_REDESIGN_V2.md](SIX_TASK_REDESIGN_V2.md).
 
 | ID | New direction | Core decision |
 |---|---|---|
@@ -28,4 +28,4 @@ Working branch: six-task-run-2026-11-11
 - One author master ZIP is delivered, with PUBLIC and PRIVATE compartments separated. Only PUBLIC is used for Doubao blind runs.
 - No PLATFORM_ACCEPTED status without an actual platform receipt.
 
-See [SIX_TASK_REDESIGN.md](SIX_TASK_REDESIGN.md) for detailed incident bases, evidence requirements, difficulty design, rubric calibration and packaging contract.
+See [SIX_TASK_REDESIGN_V2.md](SIX_TASK_REDESIGN_V2.md) for detailed incident bases, evidence requirements, difficulty design, rubric calibration and packaging contract.
