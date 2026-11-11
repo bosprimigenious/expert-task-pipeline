@@ -108,6 +108,36 @@ A public incident supplies the factual failure pattern and context. The task's t
 | 05 SaaS customer recovery | Incident command / customer success / platform ops | Which customer sites can reopen and when | multi-product RPO, SLA, restore capacity, customer verification |
 | 06 Agent incident response | AI platform security / research operations / legal | What happened and whether work may resume | evidence forensics, data exposure, authorization, third-party impact |
 
+
+## Non-overlap contract — mandatory and frozen
+
+The following boundaries are hard scope constraints. If a proposed artifact or rubric item crosses a boundary, move it to the correct task or remove it. Do not solve overlap by merely changing file names or task IDs.
+
+| Task | Decision unit | Binding constraints | Forbidden content (belongs elsewhere) | Primary deliverable |
+|---|---|---|---|---|
+| V2-01 Retail replenishment | Store × SKU × delivery slot | Supplier cutoffs, store shelf/backroom capacity, FEFO, DC allocation, delivery windows | No checkout reservation TTL, payment authorization/capture, order-line refund adjudication (V2-04 scope); no cold-chain excursion disposition/food-safety release (V2-02 scope) | **Dispatch-ready store-SKU replenishment and vehicle/load plan** |
+| V2-02 Cold-chain recovery | Lot/batch × shipment/order | Product-specific temperature limits, logger integrity, FEFO, dock/reefer capacity, food-safety release and liability | No consumer checkout/payment/order-state reconstruction (V2-04); no general store replenishment allocation (V2-01) | **Lot disposition and shipment release/hold register with claims evidence** |
+| V2-03 Airline recovery | Flight leg × passenger itinerary, constrained by crew/tail | Crew duty/rest legality, aircraft rotation, airport slots/curfews, passenger rights and connection windows | No generic queue-priority scheduling exercise; no tenant/product disaster recovery (V2-05) | **Passenger-level reaccommodation and legal flight/crew recovery plan** |
+| V2-04 E-commerce flash-sale fulfillment | Order line × SKU-location reservation | Reservation TTL, payment state, order/line state machine, warehouse pick/pack, return quality release | No supplier procurement cutoff, DC-to-store replenishment, store dispatch (V2-01); no temperature/food-safety lot release (V2-02) | **Order-line adjudication and available-to-promise reconstruction** |
+| V2-05 SaaS mass deletion recovery | Tenant site × product | Product dependency graph, restore throughput, product-specific RPO, data validation, contractual SLA and customer reopening | No root-cause attribution or general incident blame investigation; no agent action/credential/data-exfiltration forensics (V2-06); not a generic queue scheduling benchmark | **Capacity-feasible restore sequence and per-customer reopening gate/data-loss statement** |
+| V2-06 AI agent incident response | Agent action × asset/data item | Evidence provenance, authorization scope, identity/session, data classification, notification thresholds and containment integrity | No customer-site restore scheduling/RPO plan (V2-05); no generic AI model quality/feature-drift audit; no software dependency CVE review | **Confirmed / unconfirmed action-impact matrix and containment/notification decision** |
+
+### Primary-output diversity rule
+
+The six tasks must not all collapse into “ledger + plan + memo + loss estimate.” The primary deliverable is fixed in the table above. Secondary memos are allowed, but:
+- V2-01: dispatch/replenishment plan is primary; lost-sales estimate is secondary.
+- V2-02: lot disposition and claims evidence are primary; aggregate loss is secondary.
+- V2-03: passenger-level reaccommodation and flight/crew legality are primary; compensation exposure is secondary.
+- V2-04: order-line adjudication and ATP reconstruction are primary; margin/lost-sales bridge is secondary.
+- V2-05: restore sequence and reopening gates are primary; SLA exposure is secondary.
+- V2-06: confirmed/unconfirmed forensic findings and containment/notification decisions are primary; monetary loss is not a required headline output.
+
+### Source-role separation
+
+- V2-03 IndiGo is the primary aviation disruption case. NATS is supplementary background only; it is not a second incident dataset, not a separate task, and must not be used to merge unrelated evidence populations.
+- V2-06 OpenAI public statements are primary source candidates, but if official pages are inaccessible (including HTTP 403) at capture time, mark the capture `SOURCE_CAPTURE_BLOCKED`. Do not replace official source URLs with image proxies, search snippets, or unlabelled secondary reports. Archive a verifiable official copy or clearly downgrade each claim to secondary/unverified before freezing the source register.
+- Shopify is an engineering design source for inventory reservation semantics, not a claimed production outage. V2-04 must be labelled a production-style operational exercise grounded in a documented engineering problem, not a Shopify incident.
+
 ## Material difficulty specification
 
 Each task's evidence pack should have 20–35 genuinely interdependent artifacts, not 20–35 filler files. Aim for a mix of:
