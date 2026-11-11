@@ -1,8 +1,13 @@
-# Six-task redesign — production-incident investigations
+# SUPERSEDED — V1 historical record only
 
-Version: 2026-11-11  
-Status: **DIRECTION SET / MATERIAL RESEARCH REQUIRED**  
-This document supersedes the earlier draft direction list in `tasks/README.md`. It does not claim six completed or platform-ready tasks.
+Status: **SUPERSEDED BY `SIX_TASK_REDESIGN_V2.md` on 2026-11-11. DO NOT USE AS AN ACTIVE TASK LIST.**
+
+This file is retained only for provenance and historical comparison. Its N01–N06 topics (payment ledger recovery, tenant region routing, ML feature drift, AI-agent destructive action, Atlassian mass deletion recovery, SaaS metering drift) are not active tasks in the V2 batch. In particular, its N04 and N05 are not to be reused, renumbered, merged, or treated as V2 tasks.
+
+The sole active six-task list is [SIX_TASK_REDESIGN_V2.md](SIX_TASK_REDESIGN_V2.md).
+
+---
+
 
 ## User exclusions
 
@@ -158,3 +163,4 @@ The master ZIP is for the author. Never upload the master ZIP to Doubao because 
 ## Current execution order
 
 N01 → N02 → N03 → N04 → N05 → N06. Complete author QA and package each case before beginning the next. Preserve source/authorization blockers and never claim model/platform pass without evidence.
+
