@@ -39,3 +39,8 @@ See the mandatory `Non-overlap contract` section in V2. No task may absorb anoth
 - Initial engineering-only task directions: superseded; see Git history and archive.
 
 Do not open a second task list or mix V1 identifiers into V2.
+
+
+## V2-06H task-specific hardening
+
+The V2-06 Agent task is being rebuilt as `V2-06H` with a distinct task-level hardening contract. See [V2-06H-REDESIGN.md](V2-06H-REDESIGN.md), [V2-06H-STATUS.md](V2-06H-STATUS.md), and [the mandatory hardening contract](../docs/V2-06H-HARDENING-CONTRACT.md). The redesign adds per-run authorization scope, communication-channel boundaries, cross-run collaboration, exposed third-party credential use, evidence custody and 12 single-variable restart counterfactuals. Current status is author package built; Doubao run and platform acceptance remain NOT_RUN.
