@@ -12,7 +12,7 @@ Working branch: six-task-run-2026-11-11
 | N02 | Tenant region-routing outage caused by failed edge-cache dependency | affected tenants, residency-safe fallback and re-entry |
 | N03 | Silent ML decision degradation from feature semantic/unit change | affected predictions, point-in-time replay and rollback boundary |
 | N04 | AI agent destructive-action incident | reconstruct actual tool/API/database effects and prove recoverability |
-| N05 | Privacy deletion request colliding with legal hold, replicas and backup lifecycle | delete/retain/unknown decisions and defensible completion evidence |
+| N05 | Mass tenant deletion and multi-product disaster recovery at scale | affected-site scope, restore capacity, product-specific RPO and reopening decisions |
 | N06 | SaaS usage metering and entitlement drift across billing-cycle boundary | contract entitlement, billable usage and invoice disposition |
 
 ## Global constraints
