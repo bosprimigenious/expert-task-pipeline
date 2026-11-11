@@ -67,8 +67,8 @@ Do not manufacture contradictions by making the task rules ambiguous. Publish al
 **Deliverables:** point-in-time feature parity audit, affected prediction ledger, causal hypothesis matrix with confidence/alternatives, decision-impact estimate, rollback/replay recommendation and monitoring/guardrail specification.
 
 ### N04 — AI agent destructive-action incident: prove what the agent actually changed
-**Incident basis:** the 2025 Replit production database deletion incident, using the original incident statements and first-party records where available. The exercise focuses on the discrepancy between agent narration, tool/API actions, database audit evidence and recoverability—not on a generic agent safety checklist.  
-**Research starting point:** https://blog.replit.com/ (locate and freeze first-party incident statement before finalizing); secondary chronology must be labelled secondary.
+**Incident basis:** the April 2026 PocketOS/Railway production-data deletion incident. A coding agent working on a staging task used an account-scoped credential and a legacy volume-delete API; production data and volume-level backups became unavailable. Public reporting describes recovery from an older offsite backup and reconstruction from payment, calendar and email records. Treat founder and vendor statements as separately attributed evidence; freeze the original statements before finalizing.  
+**Research starting points:** https://www.abc.net.au/news/ and https://techcrunch.com/ (locate and freeze first-party founder/vendor statements; secondary chronology must be labelled secondary).
 
 **Decision:** reconstruct the exact action chain and authorization boundary; determine actual data loss and recoverable state; establish whether claimed backups/restores are real; decide containment and safe restoration without overwriting newer valid writes.
 
@@ -80,17 +80,17 @@ Do not manufacture contradictions by making the task rules ambiguous. Publish al
 
 **Source gate:** do not finalize this case until the original Replit primary statement and any public evidence are located and version-frozen. Do not present secondary commentary as first-party fact.
 
-### N05 — Privacy deletion request colliding with legal hold, replicas and backup lifecycle
-**Incident basis:** operational requirements from AWS Backup legal-hold semantics and Google Cloud's incident-response guidance. This is a realistic compliance operations case, not a claim that AWS suffered this incident. AWS documents that legal holds apply to original recovery points and do not automatically carry across copied regions/accounts; continuous backups are outside this legal-hold feature.  
-**Primary sources:** https://docs.aws.amazon.com/aws-backup/latest/devguide/legalhold.html and https://docs.cloud.google.com/docs/security/incident-response
+### N05 — Mass tenant deletion and multi-product disaster recovery at scale
+**Incident basis:** Atlassian's official post-incident review of the April 2022 outage. A cleanup operation intended to remove an app from customer sites deleted 883 sites affecting 775 customers. Recovery required per-site extraction and restoration; the restore process was not designed for hundreds of sites in parallel. Atlassian reported a 14-day recovery period and differing data-loss windows for 57 customers due to misaligned product restore points.  
+**Primary source:** https://www.atlassian.com/engineering/post-incident-review-april-2022-outage
 
-**Decision:** decide what can be deleted, what must be retained, what is unknown, and what evidence is required to certify completion across primary stores, replicas, derived datasets, caches and backups without violating a valid legal hold.
+**Decision:** determine the exact affected tenant/site/product population, prioritize recovery under constrained restore capacity, reconcile per-product restore points, establish customer-specific data-loss windows, and decide when each site is genuinely restored and safe to reopen.
 
-**Hard materials:** DSAR tickets; identity resolution; data lineage; object/table inventories; replication status; backup recovery-point catalog; legal-hold scope and timestamps; retention policies; deletion job logs; cache expiry; restore/replay procedures; downstream processor attestations. Include alias identities, stale replicas, continuous backups, copied recovery points and hold activation races.
+**Hard materials:** bulk cleanup request; site/app identifier exports; script arguments and API logs; tenant/product inventory; per-product backup catalog; restore-point timestamps; cross-product dependency graph; restore job logs; validation checks; customer verification records; support queue; recovery staffing/capacity; status communications. Include ambiguous identifier types, partial restore success, inconsistent product RPOs, shared data stores, repeated restore attempts and customer acceptance that lags technical recovery.
 
-**Key Doubao weaknesses:** treating a deletion API success as end-to-end deletion; assuming backup hold propagates to copies; deleting held data; treating absence from the primary database as proof of erasure; collapsing UNKNOWN into PASS.
+**Key Doubao weaknesses:** assuming the target identifier scope; counting a site as restored when only one product is back; treating backup existence as restoration proof; applying a single RPO to all products; ignoring restore throughput and queue interactions; confusing technical readiness with customer verification.
 
-**Deliverables:** subject-to-data lineage matrix, deletion/retention decision register, per-system execution plan, exception and legal-hold register, evidence-based completion certificate (or explicit inability to certify), and residual-risk memo.
+**Deliverables:** affected-site adjudication ledger, product-by-product restore matrix, capacity-constrained recovery schedule, per-customer RPO/data-loss statement, restore validation register, reopening decision and customer communication ledger.
 
 ### N06 — SaaS usage metering and entitlement drift after a billing-cycle boundary
 **Incident basis:** Twilio's documented billing incident illustrates how balance-store recovery and charging workflows can diverge. This new case is deliberately different from N01: it audits contractual entitlement, usage measurement, proration and invoice correctness—not duplicate payment recovery.  
